@@ -1,13 +1,13 @@
 .content {
-    border: 3px solid red;
-    background-color: ivory;
+    border: 3px solid white;
+    background-color: rgb(216, 216, 255);
     margin-left: 10%;
     margin-right: 10%;
 }
 
 header {
-    border: 3px solid green;
     margin: 3px;
+    text-align: end;
 }
 
 header h2 {
@@ -15,15 +15,17 @@ header h2 {
 }
 
 .entry {
-    border: 3px solid lime;
+    border: 3px solid rgb(255, 216, 225);
     margin: 3px;
     background-color: rgb(236, 236, 245);
     padding: 15px;
     margin-top: 10px;
+    overflow: hidden;
 }
 
 span {
-    border: 3px solid cyan;
+    font-style: italic;
+    color: slategrey;
 }
 
 
@@ -34,8 +36,17 @@ span {
 footer {
     border: 3px solid blue;
     margin: 3px;
+    text-align: center;
 }
 
 body {
     background-image: url("images/paper.png");
+}
+
+img {
+    float: right;
+}
+
+a:hover {
+    color: red;
 }
