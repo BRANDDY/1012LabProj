@@ -1,0 +1,24 @@
+.content{
+    border:3px solid red;
+}
+header{
+    border:3px solid green;
+    margin:3px;
+}
+header h2{
+    border:3px solid orange;
+}
+div {
+    border:3px solid lime;
+    margin:3px;
+}
+span{
+    border:3px solid cyan;
+}
+p{
+    border:thin solid grey;
+}
+footer{
+    border:3px solid blue;
+    margin:3px;
+}
