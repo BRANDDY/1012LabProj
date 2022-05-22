@@ -10,10 +10,6 @@ header {
     text-align: end;
 }
 
-header h2 {
-    border: 3px solid orange;
-}
-
 .entry {
     border: 3px solid rgb(255, 216, 225);
     margin: 3px;
@@ -37,10 +33,12 @@ footer {
     border: 3px solid blue;
     margin: 3px;
     text-align: center;
+    visibility: hidden;
 }
 
 body {
     background-image: url("images/paper.png");
+    font-family: sans-serif;
 }
 
 img {
