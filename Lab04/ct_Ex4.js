@@ -11,7 +11,7 @@ function mouseOut() {
 }
 
 //pre: a,b,c are rational numbers
-//post: whether the equation has 2,1,or 0 rppts in rational number
+//post: whether the equation has 2,1,or 0 roots in rational number
 
 function largestOf3() {
     var a = parseFloat(document.getElementById("number1").value);
