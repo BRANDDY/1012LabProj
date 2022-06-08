@@ -1,0 +1,21 @@
+
+
+#box {
+    background-color: rgb(255, 255, 255);
+    padding: 10px; padding-top:0px;
+    width: 300px;
+    text-align: center;
+    border: 5px solid rgb(106,255,194);
+}
+
+
+#box button {
+    width: 56.6px;
+    padding: 2px;
+}
+
+#off{
+    text-align: center; margin:5px;
+}
+#off button{width:80px}
+   

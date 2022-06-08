@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 4.
+   For: EECS 1012s, York University, Lassonde School of Engineering -->
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 4 - Computational Thinking </title>
+  <link rel="stylesheet" type="text/css" href="ct.css" title="style" /> 
+  <!--in Ex1 to Ex6, link your html file to your js file, here-->
+  <script src="ct_Ex0.js"></script>
+</head>
+<body>
+  <header>
+    <!-- in Ex1 to Ex6 change this header properly-->
+    <h1> perimeter of a rectangle </h1>
+  </header>
+  
+  <div class="column1">
+     
+    <div class="input">
+	  one side <input id="number1" type="number" min="-32768" max="32767"/>
+	</div>
+	<div class="input">
+	  another side <input id="number2" type="number" min="-32768" max="32767"/>
+	</div>
+	<div class="input">
+	  
+	  <button id="butn" onmouseover="mouseOver()" onmouseout="mouseOut()"> enter </button>   <!--in Ex0, add event for mouse --> 
+	</div>
+	  <p id="output">	</p>
+	  
+  </div>	<!--in Ex6, add a button beside the original button. Also add a output paragraph below the existing output paragraph -->
+  
+  <footer>&copy; Author(s): <span>Xin Zhou</span> </footer>
+</body>
+</html>
