@@ -17,7 +17,6 @@ function digits37() {
             t++;
         }
     }
-
     outputObj.innerHTML = outputObj.innerHTML + " <br><br>" + "number of 3 or 7's: " + t + " <br><br>" + "program ended";
     document.getElementsByTagName("button")[0].setAttribute("disabled", "true");
 

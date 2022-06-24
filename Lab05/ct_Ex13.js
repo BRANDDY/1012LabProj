@@ -9,7 +9,6 @@ function triangle() {
     for (i = 0; i <= n; i++) {
         outputObj.innerHTML = outputObj.innerHTML + "<br>";
         for (t = 0; t < i; t++) {
-
             outputObj.innerHTML = outputObj.innerHTML + "[] ";
         }
     }

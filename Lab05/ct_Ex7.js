@@ -11,7 +11,7 @@ function readInteger() {
     while (a != 0) {
         if (a > 0) {
             outputObj.innerHTML = outputObj.innerHTML + a + ": is positive <br>";
-        } else if (a < 0) {
+        } else {
             outputObj.innerHTML = outputObj.innerHTML + a + ": is negative <br>";
         }
         a = parseInt(prompt("Please enter a number: ", ""));
