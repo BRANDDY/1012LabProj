@@ -113,15 +113,14 @@ function primeANDseven() {
     for (i = 0; i < list.length; i++) {
         num = parseInt(list[i]);
         check = prime(num);
-        if (check) {
-            while (num != 0) {
-                if (num % 10 == 7) {
-                    output.push(list[i]);
-                    break;
-                }
-                num = Math.floor(num / 10);
+        while (num != 0 && check) {
+            if (num % 10 == 7) {
+                output.push(list[i]);
+                num = 0;
             }
+            num = Math.floor(num / 10);
         }
+
     }
     document.getElementById("output7").innerHTML = output;
 }
