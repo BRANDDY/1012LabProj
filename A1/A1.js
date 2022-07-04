@@ -11,7 +11,10 @@ function problem1() {
             p.innerHTML = str1 + " is not symmetric";
             same=false;
         } 
-        i++
+        i++;
+    }
+    if(same){
+        p.innerHTML = str1 + " is symmetric";
     }
 }
 
