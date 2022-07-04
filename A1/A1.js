@@ -3,16 +3,15 @@
 function problem1() {
     var p = document.getElementById("mydata");
     var str1 = prompt("enter string: ");
-    var str2 = "";
+    var same=true;
     p.innerHTML = str1; /* display input string */
-    var letter;
-    for (letter of str1) {
-        str2 = letter + str2;
-    }
-    if (str1 == str2) {
-        p.innerHTML = str1 + " is symmetric";
-    } else {
-        p.innerHTML = str1 + " is not symmetric";
+    var i=0;
+    while (same&&i<math.floor(str1/2)){
+        if (str1[i]!=(str1.length-i)) {
+            p.innerHTML = str1 + " is not symmetric";
+            same=false;
+        } 
+        i++
     }
 }
 
