@@ -1,0 +1,20 @@
+#box {
+    border: hsl(108, 100%, 88%) 5px solid;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; padding-top:0px;
+    width: 300px;
+}
+ /* #box img {
+    width:
+  }*/
+
+#box button {
+    width: 56px;
+    padding: 2px;
+}
+
+#off{
+    text-align: center;
+}
+#off button{width:80px}
+   
