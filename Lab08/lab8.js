@@ -202,7 +202,6 @@ function problemG() {
 }
 
 function symmetric(s, i, j) {
-    console.log(i + " " + j + " " + s[i] + " " + s[j]);
     if (i >= j) {
         return "Symmetric";
     } else {

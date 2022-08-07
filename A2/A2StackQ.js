@@ -314,18 +314,12 @@ function sortQUsingStack(q) {
     var st = new Stack(); // create a new stack
 
     while (q.size() > 0) { //alert("here0");
-        if (st.size() < 1) { /////////////////????????????
-            st.push(q.dequeue());
-        } else {
-            if (q.frontItem() > st.peek()) {
-                while (q.frontItem() > st.peek() && st.size() != 0) {
-                    q.enqueue(st.pop());
-                }
-                st.push(q.dequeue());
-            } else {
-                st.push(q.dequeue());
+        if (st.size() >= 1 && q.frontItem() > st.peek()) {
+            while (q.frontItem() > st.peek() && st.size() != 0) {
+                q.enqueue(st.pop());
             }
         }
+        st.push(q.dequeue());
     }
     while (st.size() > 0) {
         q.enqueue(st.pop());
