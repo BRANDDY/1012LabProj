@@ -56,13 +56,10 @@ function drawTheCells() {
     // TODO: write your JavaScript Code here ...
     // hint: use nested loop to drop each cell in the array, calling subfunctions accordingly. 
     var n = parseInt(prompt("size of checkerboard? "));
+    var col = ["red", "black"];
     for (var i = 0; i < n; i++) {
         for (var j = 0; j < n; j++) {
-            if ((j + i) % 2 == 0) {
-                drawOneCell("red");
-            } else {
-                drawOneCell("black");
-            }
+            drawOneCell(col[(i + j) % 2]);
         }
         drawNewLine();
     }
